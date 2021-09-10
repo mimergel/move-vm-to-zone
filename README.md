@@ -8,6 +8,6 @@ Remove these upfront manually.
 
 ```ps1
 
-./move-vm-to-zone.ps1 -SubscriptionName "Azure Subscription Name" -ResourceGroupName <RG> -VirtualMachineName <VM> -ZoneNumber <x> 
+./move-vm-to-zone.ps1 -SubscriptionName "Azure Subscription Name" -ResourceGroupName "RG" -VirtualMachineName "VM" -newAvailabilityZoneNumber "2"
 
 ```
